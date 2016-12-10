@@ -1,0 +1,11 @@
+{
+    "module": "commonjs",
+    "projFile": "src/files.fsx",
+    "sourceMaps": true,
+    "outDir": "temp",
+    "scripts": {
+        "prebuild": "npm install",
+        "postbuild": "node node_modules/webpack/bin/webpack"
+    },
+    "refs": { "Fable.Core": "fable-core/umd", "Fable.PowerPack": "fable-powerpack/umd" }
+}

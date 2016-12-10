@@ -1,0 +1,27 @@
+{
+  "private": true,
+  "name": "helloworld",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "electron app/js/main.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "fable-arch": "^0.9.12",
+    "fable-core": "^0.7.14",
+    "virtual-dom": "^2.1.1"
+  },
+  "devDependencies": {
+    "electron-prebuilt": "^1.2.7",
+    "fable-import-electron": "0.0.6",
+    "fable-powerpack": "0.0.19",
+    "isomorphic-fetch": "^2.2.1",
+    "source-map-loader": "^0.1.5",
+    "webpack": "^1.13.1"
+  }
+}
