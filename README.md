@@ -8,6 +8,6 @@ The backend is a [Suave](http://suave.io) http server application that listens t
 
 The core "business logic", i.e. the data types for Cart, Discount etc and the logic to test if a discount applies are implemented in a separate file that is included by both the frontend and the backend. By sharing one source of truth between them instead of writing the same logic in two different languages for the two worlds, a big source of errors is prevented.
 
-Check the frontend and backend directory for more information how to run the two parts and what they were based on.
+Check the [frontend](frontend/README.md) and [backend](backend/README.md) directory for more information how to run the two parts and what they were based on.
 
 Many thanks to the many contributors/authors of all the pieces that made this possible and the examples on top of which this demonstration was built!
